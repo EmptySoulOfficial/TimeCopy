@@ -3,7 +3,6 @@ import data_version from "../static/version.json" with { type: "json" };
 import { notification } from "./components/ui/notification/notification.js";
 import { plattforms } from "./components/dlc/plattforms/plattforms.dlc.js";
 import { projectDetection } from "./components/content/configuration/projectDetection/projectDetection.js";
-import { developer } from "./developer/developer.js";
 
 document.addEventListener('DOMContentLoaded', function () {
 
@@ -433,8 +432,6 @@ document.addEventListener('DOMContentLoaded', function () {
     // Load local storages
     loadStorage()
     loadSessionStorages()
-    // devtool
-    developer()
   });
 })
 
